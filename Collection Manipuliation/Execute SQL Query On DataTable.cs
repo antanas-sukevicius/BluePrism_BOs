@@ -115,7 +115,7 @@ namespace SQLite_Demo
                     columnValue = dt.Rows[i][columnsNamesArray[j]].ToString();
 
                     columnsValues = columnsValues + "'" + columnValue + "',";
-                    columnsNames = columnsNames + columnName + ",";
+                    columnsNames = columnsNames + "[" + columnName + "],";
 
                 }
 
